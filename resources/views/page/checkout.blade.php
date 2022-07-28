@@ -78,7 +78,7 @@
                   <p class="your-order-f18">Tổng:</p>
                 </div>
                 <div class="pull-right">
-                  <h5 class="color-black">@if(Session::has('cart')){{number_format($totalPrice)}}@else 0 @endif đồng
+                  <h5 class="color-black">@if(Session::has('cart'))<input type ="text" name = "tongtien" value="{{$totalPrice}}"> @else 0 @endif đồng
                   </h5>
                 </div>
                 <div class="clearfix"></div>
@@ -112,7 +112,7 @@
             </div>
 
             <div class="text-center">
-              <button type="submit" class="beta-btn primary">Đặt hàng <i class="fa fa-chevron-right"></i></button>
+              <button type="submit" name="redirect" class="beta-btn primary">Đặt hàng <i class="fa fa-chevron-right"></i></button>
             </div>
           </div> <!-- .your-order -->
         </div>

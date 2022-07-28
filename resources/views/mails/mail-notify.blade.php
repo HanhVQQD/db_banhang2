@@ -1,7 +1,7 @@
 <body>
   <div>
     <h2>{{ $data['type'] }}</h2>
-    <p>Chào quý khách hàng của 2QHVD</p>
+    <p>Chào khách hàng thân mến</p>
     <p><b>{{ $data['thanks'] }}</b></p>
     <div>
       <div class="your-order-head">

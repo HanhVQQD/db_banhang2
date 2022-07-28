@@ -30,8 +30,8 @@ session_start();
 
   <body>
     <?php
-  $vnp_TmnCode = "57U1FZ9V"; //Mã website tại VNPAY
-  $vnp_HashSecret = "TQIBCZEXUERWJKGJGLWFQHCLSWWOCXVZ"; //Chuỗi bí mật
+  $vnp_TmnCode = "AHSUMCJ7"; //Mã website tại VNPAY
+  $vnp_HashSecret = "QWGWPSWRUTQANYQTZZMAKIZMHDQYFQKP"; //Chuỗi bí mật
   $vnp_Url = "http://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
   // $vnp_Returnurl = "http://localhost/vnpay_php/vnpay_return.php";
   $vnp_SecureHash = $_GET['vnp_SecureHash'];
